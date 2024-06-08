@@ -1,0 +1,36 @@
+{
+  "name": "teascript",
+  "version": "1.0.0",
+  "description": "teaScript 是一个基于 Node.js 的puppeteer脚本，用于自动化撸空投tea任务 ",
+  "keywords": [
+    "web3",
+    "tea",
+    "tea.xyz",
+    "nodejs",
+    "script",
+    "h7ml"
+  ],
+  "homepage": "https://github.com/h7ml/teaScript#readme",
+  "bugs": "https://github.com/h7ml/teaScript/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h7ml/teaScript.git"
+  },
+  "funding": "https://github.com/sponsors/h7ml",
+  "license": "MIT",
+  "author": {
+    "name": "h7ml",
+    "github": "https://github.com/h7ml/teaScript",
+    "mail": "h7ml@qq.com"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "getpkg": "sh ./bash/npm.sh",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "puppeteer": "^22.10.0"
+  },
+  "packageManager": "pnpm@7.12.0"
+}

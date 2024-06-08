@@ -1,0 +1,6 @@
+npm.txt
+.env
+node_modules
+package-lock.json
+localstore.json
+temp
